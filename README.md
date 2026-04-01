@@ -10,13 +10,12 @@ SipHash - Hash Function:
 Affine Cipher (Encryption & Decryption):
 
 Encryption is done using:
-            - E(x) = (a(x) + b) mod 62
-            - Here a = 5 and b = 8
-            - where each character is converted to a number (Base62), transformed, and converted back.
+            E(x) = (a(x) + b) mod 62
+- Here a = 5 and b = 8, where each character is converted to a number (Base62), transformed, and converted back.
 
 Decryption is done using:
-            - D(x) = (a^-1(x) - b) mod 62
-            - where a^-1 is modular inverse of a.
+            D(x) = (a^-1(x) - b) mod 62
+- where a^-1 is modular inverse of a.
 
 Authentication Type A:
 
