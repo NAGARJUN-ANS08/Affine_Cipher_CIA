@@ -23,10 +23,10 @@ Authentication Type A:
 - This hash is then concatenated with the original message to form a combined data.
 - The combined data is encrypted using the affine cipher before transmission.
 - At the receiver side, the data is decrypted, split into hash and message, and the hash is recomputed.
-- If both hashes match, the message is authentication successful otherwise authentication unsuccessful
+- If both hashes match, the message is authentication successful otherwise authentication unsuccessful.
 
 
-Instructions to Run
+Instructions to Run:
 - Clone the repository
 - Open terminal and navigate to the project folder
 - Run the file : python cia.py
