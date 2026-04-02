@@ -33,3 +33,5 @@ Instructions to Run:
 - Enter the plaintext message
 - View the hash, encrypted output, decrypted value, and authentication result
 
+![Affine Cipher Output](images/AffineCipher_Output.png)
+![Hash Output](images/Hash_Output.png)
