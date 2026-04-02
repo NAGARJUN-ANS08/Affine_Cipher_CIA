@@ -29,7 +29,7 @@ Authentication Type A:
 Instructions to Run:
 - Clone the repository
 - Open terminal and navigate to the project folder
-- Run the file : python cia.py
+- Run the file : python cipher.py, cia.py 
 - Enter the plaintext message
 - View the hash, encrypted output, decrypted value, and authentication result
 
